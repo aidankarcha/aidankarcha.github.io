@@ -1,7 +1,354 @@
 <!DOCTYPE html>
-<html>
-<body>
-	<h1>Hello World</h1>
-	<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+	<head>
+		<meta charset = "UTF-8" />
+		<meta http-equiv = "X-UA-Compatible" content = "IE = edge" />
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+
+		<!-- CSS Styles -->
+		<link rel = "stylesheet" href = "assets/css/styles.css" />
+
+		<!-- Favicons -->
+		<link 
+			rel = "apple-touch-icon" 
+			sizes = "180x180" 
+		  	href = "assets/icons/apple-touch-icon.png" 
+		/>
+		<link
+		  	rel = "icon"
+		  	type = "image/png"
+		  	sizes = "32x32"
+		  	href = "assets/icons/favicon-32x32.png"
+		/>
+
+		<!-- Animate CSS CDN -->
+		<link
+		  	rel = "stylesheet"
+		  	href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<title>Aidan Karcha Portfolio</title>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<nav>
+			<h1>Aidan Karcha</h1>
+			<ul class = "navigation">
+				<li><a href = "#about" class = "nav-link">About</a></li>
+				<!--<li><a href = "#skills" class = "nav-link">Skills</a></li>-->
+				<li><a href = "#projects" class = "nav-link">Projects</a></li>
+				<li><a href = "#contact" class = "nav-link">Contact</a></li>
+			</ul>
+
+			<button class = "burger-menu" id = "burger-menu">
+				<ion-icon class = "bars" name = "menu-outline"></ion-icon>
+			</button>
+		</nav>
+
+		<!-- Hero Section -->
+		<section class = "hero" id = "about">
+			<img
+				src = "assets/images/headshot.png"
+				alt = "aidan-karcha"
+				loading = "lazy"
+				class = "hero-img"
+			/>
+			
+			<div class = "bio animate__animated animate__shakeX">
+				<h2 class = "bio-title">Aidan Karcha</h2>
+				<p class = "bio-text">
+					- Programmer
+				</p>
+				<p class = "bio-text">
+					- Actor
+				</p>
+				<p class = "bio-text">
+					- Photographer
+				</p>
+				<p class = "bio-text">
+					- Designer
+				</p>
+			</div>
+		</section>
+
+		<!-- More About -->
+		<section class = "more-about">
+			<h2>More About Me</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        		nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+        		autem deleniti cupiditate molestias quis unde quae totam porro dicta
+        		iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+        		nostrum dolor minus, libero delectus praesentium perferendis
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        		consequuntur labore? Ea totam voluptas amet!
+			</p>
+		</section>
+
+		<!-- Skills Section -->
+		<!--
+		<section class = "skills" id = "skills">
+			<h2 class = "skills-header">My Top Skills</h2>
+
+			<div class = "skills-wrapper">
+				<div class = "first-set animate__animated animate__pulse">
+					<img
+						src = "assets/icons/placeholder-192x192.png"
+						alt = ""
+						loading = "lasy"
+						class = "icon icon-card"
+					/>
+					<img
+						src = "assets/icons/placeholder-192x192.png"
+						alt = ""
+						loading = "lasy"
+						class = "icon icon-card"
+					/>
+					<img
+						src = "assets/icons/placeholder-192x192.png"
+						alt = ""
+						loading = "lasy"
+						class = "icon icon-card"
+					/>
+				</div>
+
+				<div class = "second-set animate__animated animate__pulse">
+					<img
+						src = "assets/icons/placeholder-192x192.png"
+						alt = ""
+						loading = "lasy"
+						class = "icon icon-card"
+					/>
+					<img
+						src = "assets/icons/placeholder-192x192.png"
+						alt = ""
+						loading = "lasy"
+						class = "icon icon-card"
+					/>
+					<img
+						src = "assets/icons/placeholder-192x192.png"
+						alt = ""
+						loading = "lasy"
+						class = "icon icon-card"
+					/>
+				</div>
+			</div>
+		</section>
+		-->
+
+		<!-- Projects Section -->
+		<section class = "projects" id = "projects">
+			<h2 class = "projects-section-title">Recent Projects</h2>
+			<div class = "projects-section-container">
+
+				<!-- Portfolio Website -->
+				<div class = "project-container project-card">
+					<img
+						src = "assets/images/placeholder-1600x900.png"
+						alt = "portfolio-website"
+						loading = "lazy"
+						class = "project-pic"
+					/>
+					<h3 class = "project-title">Portfolio Website</h3>
+					<p class = "project-details">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            			ratione vel inventore labore commodi modi quos culpa aut saepe!
+            			Alias!
+					</p>
+					<a
+						href = "#"
+						target = "_blank"
+						class = "project-link">
+						Check it Out
+					</a>
+				</div>
+
+				<!-- Capstone Project -->
+				<div class = "project-container project-card">
+					<img
+						src = "assets/images/placeholder-1600x900.png"
+						alt = "capstone-project"
+						loading = "lazy"
+						class = "project-pic"
+					/>
+					<h3 class = "project-title">University Capstone Project</h3>
+					<p class = "project-details">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            			ratione vel inventore labore commodi modi quos culpa aut saepe!
+            			Alias!
+					</p>
+					<a
+						href = "https://aidan-karcha.itch.io/game-prototype"
+						target = "_blank"
+						class = "project-link">
+						Check it Out
+					</a>
+				</div>
+
+				<!-- Global Game Jam 2023 -->
+				<div class = "project-container project-card">
+					<img
+						src = "assets/images/find-your-roots.png"
+						alt = "global-game-jam-2023"
+						loading = "lazy"
+						class = "project-pic"
+					/>
+					<h3 class = "project-title">Global Game Jam 2023</h3>
+					<p class = "project-details">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            			ratione vel inventore labore commodi modi quos culpa aut saepe!
+            			Alias!
+					</p>
+					<a
+						href = "https://aidan-karcha.itch.io/find-your-roots"
+						target = "_blank"
+						class = "project-link">
+						Check it Out
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<!-- General -->
+		<section class = "contact" id = "contact">
+			<h2>Get In Touch With Me</h2>
+			<div class = "contact-form-container">
+				<div class = "contact-form">
+					<form action = "https://formspree.io/f/mayzaykq" method = "POST">
+
+						<!-- Name Field -->
+						<div class = "form-control">
+							<label for = "name">Name</label>
+							<input
+								type = "text"
+								id = "name"
+								name = "sender-name"
+								placeholder = "Enter Your Name"
+								class = "input-field"
+								required
+							/>
+						</div>
+
+						<!-- Email Field -->
+						<div class = "form-control">
+							<label for = "email">Email</label>
+							<input
+								type = "email"
+								id = "email"
+								name = "sender-email"
+								placeholder = "Enter Your Email"
+								class = "input-field"
+								required
+							/>
+						</div>
+
+						<!-- Message Field -->
+						<div class = "form-control">
+							<label for = "message">Message</label>
+							<textarea
+								id = "message"
+								cols = "60"
+								rows = "10"
+								placeholder = "Enter Your Message"
+								name = "message"
+								class = "input-field"
+								required
+							></textarea>
+						</div>
+
+						<!-- Submit Button -->
+						<input
+							type = "submit"
+							value = "Submit"
+							id = "submit-button"
+							class = "submit-button"
+						/>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social Accounts - Fixed to the Right -->
+		<div class = "socials">
+
+			<!-- LinkedIn -->
+			<a href = "https://www.linkedin.com/in/aidan-karcha/" target = "_blank"
+			><ion-icon
+				name = "logo-linkedin"
+				alt = "LinkedIn"
+				loading = "lazy"
+				class = "social-icon"
+			></ion-icon>
+
+			<!-- GitHub -->
+			<a href = "https://github.com/aidankarcha" target = "_blank">
+				<ion-icon
+					name="logo-github"
+					alt = "GitHub"
+					class = "social-icon"
+				></ion-icon>
+			</a>
+
+			<!-- Instagram -->
+			<a href = "https://www.instagram.com/aidankarcha/" target = "_blank"
+				><ion-icon
+					name = "logo-instagram"
+					alt = "Instagram"
+					loading = "lazy"
+					class = "social-icon"
+				></ion-icon>
+			</a>
+
+			<!-- Twitter -->
+			<a href = "https://twitter.com/aidankarcha" target = "_blank"
+				><ion-icon
+					name = "logo-twitter"
+					alt = "Twitter"
+					loading = "lazy"
+					class = "social-icon"
+				></ion-icon>
+			</a>
+		</div>
+
+		<!-- Scroll to Top Button -->
+		<i class = "scroll-to-top" id = "scroll-to-top">
+			<ion-icon
+				name="arrow-up-sharp"
+				class = "social-icon up-arrow"
+				alt = "scroll-to-top"
+			></ion-icon>
+			<h3>Back to Top</h3>
+		</i>
+
+		<!-- Footer Section -->
+		<footer>
+			<p class = "copy">&copy; Copyright 2023</p>
+			<p class = "copy">
+				Built by
+				<a href = "https://twitter.com/aidankarcha" target = "_blank"
+					>Aidan Karcha</a
+				>
+			</p>
+		</footer>
+
+		<!-- Website Scripts -->
+		<script src = "assets/js/app.js"></script>
+
+		<!-- Ion Icons Scripts -->
+		<script
+			type = "module"
+			src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+
+		<script
+			nomodule
+			src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+	</body>
 </html>
