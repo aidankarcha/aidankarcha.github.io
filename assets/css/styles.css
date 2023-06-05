@@ -126,7 +126,7 @@ nav ul li {
     border-radius: 6px;
     background-color: #fff;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-    min-width: 24rem;
+    min-width: 16rem;
 }
 
 .bio h2 {
@@ -356,7 +356,7 @@ footer {
 
     /* Hero Section */
     .hero {
-        margin-top: -4rem;
+        margin-top: -2rem;
         flex-direction: column;
         gap: 0;
         padding-left: 0;
@@ -369,13 +369,12 @@ footer {
     }
 
     .bio {
-        margin-top: -7rem;
-        width: 20.5rem;
+        margin-top: -3rem;
     }
 
     /* More About Section */
     .more-about {
-        padding: 2rem 3.5rem;
+        padding: 2rem 1rem;
     }
 
     .more-about h2 {
